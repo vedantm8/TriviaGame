@@ -25,7 +25,9 @@
         <div class="col-md-5"></div>
         <div class="col-md-2">
             <div id="Button">
-                <bu`tton id = "startButton" type="button" class="btn btn-primary">Click to start</button>
+                <button id = "startButton" type="button" class="btn btn-primary">Click to start</button>
+                <h4>Time Left: </h4>
+                <h4 id="showTimeLeft"></h4>
             </div>
         </div>
         <div class="col-md-5"></div>
@@ -33,18 +35,43 @@
     <div class="row">
         <div class="col-md-3"></div>
         <div class="col-md-6">
-            <h4 id = "timer"></h4>
+            <h4 id = "timeLeft"></h4>
         </div>
         <div class="col-md-6"></div>
     </div>
     <div class="row">
         <div class="col-md-4"></div>
         <div class="col-md-3">
-            <div id = 'game'></div>
-        </div>
+            <div id = 'game'>
+                <div id = 'firstQuestion'>
+                <div id="Question1"></div>
+                <button id ='Answer1A'></button>
+                <button id ='Answer1B'></button>
+                <button id ='Answer1C'></button>
+                <button id ='Answer1D'></button>
+                <button id ="Answer1E"></button>
+                </div>
+                <div id="secondQuestion">
+                    <div id="Question2"></div>
+                    <button id="Answer2A"></button>
+                    <button id="Answer2B"></button>
+                    <button id="Answer2C"></button>
+                    <button id="Answer2D"></button>
+                </div>
+                <div id="thirdQuestion">
+                    <div id="Question3"></div>
+                    <button id="Answer3A"></button>
+                    <button id="Answer3B"></button>
+                    <button id="Answer3C"></button>
+                    <button id="Answer3D"></button>
+                </div>    
+            </div>  
+            <button id = "endButton" type="button" class="btn btn-primary">Click to end</button>            
+ 
+        </div>        
     </div>
 
-    <script src="javascript/app.js">
+    <script src="javascript/app2.js">
     </script>
 
 </body>
