@@ -1,0 +1,25 @@
+*{
+    background-color: lightgray;
+}
+#QuestionArea{
+    border-style: solid;
+    border-color: black;
+    margin: 5px;
+    background-color: beige;
+}
+#button{
+    float: center;
+}
+#TriviaGame{
+    text-align: center;
+}
+#sneakPeek{
+    border-color: black;
+    background-color: beige;
+    text-align: center; 
+}
+#Questions{
+    border-color: black;
+    background-color: beige;
+    text-align: center;
+}
